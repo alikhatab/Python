@@ -1,0 +1,18 @@
+
+def bitcoin_to_usd(btc):
+    amount = btc * 572
+    print(amount)
+    
+bitcoin_to_usd(3.85)
+bitcoin_to_usd(30)
+
+
+def allowed(my_age):
+ girls_age =my_age/2+ 7
+ return girls_age
+
+ali_limitis = allowed(27)
+ahmed_limitis = allowed(45)
+
+print("ali", ali_limitis, "or older")
+print("ahmed", ahmed_limitis, "or older")
