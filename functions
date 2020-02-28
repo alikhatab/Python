@@ -16,3 +16,16 @@ ahmed_limitis = allowed(45)
 
 print("ali", ali_limitis, "or older")
 print("ahmed", ahmed_limitis, "or older")
+
+# It is important to do the sme function type, so if it string it has to be string 
+
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
+def my_efter(ename): 
+  print(enmae + " please ")
+my_efter("khatab")
