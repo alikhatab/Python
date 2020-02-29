@@ -29,3 +29,14 @@ my_function("Linus")
 def my_efter(ename): 
   print(enmae + " please ")
 my_efter("khatab")
+
+---------------------------------------------------------------------------------------
+the var is created outside of the function thats mean the kunction can a
+a = 1738
+
+def corn():
+    print(a)
+
+def fudge():
+    a = 3817
+    print(a)
