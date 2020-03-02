@@ -1,0 +1,15 @@
+
+
+cj = open("todolist.txt", "w")
+cj.write("write my opeation here")
+cj.write(" Please call me at the evening")
+
+cj.close()
+
+fr = open('todolist.txt', 'r')
+
+
+text = fr.read()
+print(text)
+
+fr.close()
