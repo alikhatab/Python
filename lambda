@@ -1,0 +1,12 @@
+# this is program about lambda function, I do really know about it
+
+
+x = lambda a, b: a * b
+print(x(5, 6))
+
+f = lambda x : x +1+ x + 6
+
+def square(y):
+    return y*y
+
+# you have to give value of x or y or any variable
