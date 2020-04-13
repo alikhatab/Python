@@ -1,0 +1,21 @@
+
+# I made a list here to check which number is odd or even
+my_list =[10, 27, 36, 48, 55, 56, 77, 88, 99, 110, 1.5, 1.4]
+
+# Alway when you have a list think about loop
+for Tal in my_list:
+
+# When you want to sort in a list you have to use if, even
+ if (Tal % 2 ==0):
+     print(str(Tal), "talet var jämt")
+     
+# when you want to make another statement use elif, odd 
+ elif (Tal % 2 !=0): 
+    print(Tal, "ojämt tal")
+
+# in this program there is
+# 1. list
+# 2. loop
+# 3. if, elif
+# 4. Modulo Operator
+
