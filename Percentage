@@ -1,0 +1,17 @@
+
+
+
+# This program is for 
+
+a=int(input("\nEnter the malp marks :"))
+b=int(input("\nEnter the os marks :"))
+c=int(input("\nEnter the Maths marks :"))
+d=int(input("\nEnter the Sience marks :"))
+e=int(input("\nEnter the dcld marks :"))
+
+tota=(a+b+c+d+e)
+
+
+print("Total is: ", tota)
+per=float(tota)*(100/500)
+print ("Percentage is: ",per)
