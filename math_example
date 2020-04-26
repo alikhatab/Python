@@ -1,0 +1,66 @@
+
+# this is the first solution
+
+#human = 100
+
+#ali = 10
+#sara= 30
+
+#total = human/(ali+sara)
+
+#alimoney= total*ali
+#saramoney= total*sara
+
+#print(alimoney, saramoney)
+
+
+#ali_money = total * ali
+#sura_money = total * sura
+
+
+
+# this is the second solution
+
+
+#total_money =80
+
+#ali = float(input("please enter the first number: "))
+#sara = float(input("please enter the sceond number:"))
+
+#power_of_one_point = total_money/(ali+sara)
+
+#print(power_of_one_point)
+
+#ali_money= power_of_one_point*ali
+#sara_money=power_of_one_point*sara
+
+#print(ali_money,sara_money)
+
+# this is the 3rd  solution by function
+
+def my_cal(ali, sara,noor,samer):
+ total =ali+sara+noor+samer
+ print(total)
+ total_money=80
+ power_of_one_point=total_money/total
+ print(power_of_one_point)
+ ali_money= power_of_one_point*ali
+ sara_money=power_of_one_point*sara
+ noor_money=power_of_one_point*noor
+ samer_money=power_of_one_point*samer
+ print(sara_money,ali_money,noor_money,samer_money )
+
+
+
+
+#total_money =80
+
+#def my_function(ali,sara):
+#amount =( ali+sara    )
+#power = (total_money+amunt)
+ 
+#ali_money = power * ali
+
+#sara_money = power * sara
+
+#print(ali_money, sara_money)
