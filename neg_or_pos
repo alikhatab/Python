@@ -1,0 +1,11 @@
+
+
+number = float(input("Please enter your firt number: "))
+if(number> 0):
+   print("this is positiv")
+
+elif(number< 0):
+    print("this is negativ")
+
+else:
+    print("you entered zero")
